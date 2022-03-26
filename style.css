@@ -93,7 +93,7 @@ button {
   box-shadow: none;
   transition: 200ms;
   display: block;
-  width: 40%;
+  width: 30%;
   margin: 20px auto;
   padding: 5px 0;
   border: 1px solid white;
@@ -102,7 +102,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 6px 6px 6px #5c5d5f, -6px -6px 6px rgb(219, 209, 209);
+  transform: scale(1.08);
 }
 
 a {
