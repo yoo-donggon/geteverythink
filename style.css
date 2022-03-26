@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Titillium+Web:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
 body {
   margin: 0;
   width: 100vw;
@@ -10,8 +10,7 @@ body {
   justify-content: center;
   place-items: center;
   overflow: hidden;
-  font-family: "Nanum Brush Script", cursive;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
 .container {
@@ -66,7 +65,7 @@ button {
 }
 
 input::placeholder {
-  color: #d16262;
+  color: #dd8585;
 }
 
 input {
@@ -87,7 +86,6 @@ button {
   height: 40px;
   border-radius: 10px;
   cursor: pointer;
-  font-weight: 600;
   font-size: 20px;
   box-shadow: none;
   transition: 200ms;
