@@ -72,6 +72,7 @@ button {
   border: 1px solid var(--color--white);
   outline: none;
   box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
 }
 
 input::placeholder {
@@ -79,9 +80,11 @@ input::placeholder {
 }
 
 input {
-  display: inline;
+  display: block;
   width: 100%;
-  border: 1px solid var(--color--white);
+  font-family: "Mukta", sans-serif;
+  border: 1px solid var(--color--grey);
+  border-radius: 4px;
   box-sizing: border-box;
   background: rgb(241, 240, 240);
   padding-left: 20px;
