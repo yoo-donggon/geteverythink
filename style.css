@@ -57,22 +57,12 @@ body {
   border: none;
   outline: none;
   box-sizing: border-box;
-  margin-bottom: 4px;
+  margin: 4px 0;
 }
 
 .inputs {
   text-align: left;
   margin-top: 30px;
-}
-
-button {
-  display: block;
-  width: 100%;
-  padding: 0;
-  border: 1px solid var(--color--white);
-  outline: none;
-  box-sizing: border-box;
-  font-family: "Mukta", sans-serif;
 }
 
 input::placeholder {
@@ -83,7 +73,7 @@ input {
   display: block;
   width: 100%;
   font-family: "Mukta", sans-serif;
-  border: 1px solid var(--color--grey);
+  border: 2px solid var(--color--background);
   border-radius: 4px;
   box-sizing: border-box;
   background: rgb(241, 240, 240);
@@ -97,16 +87,14 @@ button {
   background: var(--color--font);
   height: 40px;
   border-radius: 10px;
-  cursor: grab;
+  cursor: pointer;
   font-size: 20px;
-  box-shadow: none;
   transition: 200ms;
   display: block;
   width: 30%;
   margin: 20px auto;
   padding: 5px 0;
-  border: 1px solid --color--white;
-  outline: none;
+  border: 1px solid var(--color--white);
   box-sizing: border-box;
 }
 
