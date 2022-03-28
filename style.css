@@ -6,7 +6,7 @@
   --color--back: #7acbcd;
   --color--background: #2d3030;
   --color--grey: rgb(194, 194, 194);
-  --color--white: rgba(255, 255, 255, 0.815);
+  --color--white: rgba(255, 255, 255, 0.897);
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 .container {
   position: relative;
   width: 550px;
-  height: 500px;
+  height: 550px;
   border-radius: 4px;
   padding: 40px;
   box-sizing: border-box;
@@ -48,9 +48,9 @@ body {
   color: var(--color--font);
 }
 
-.login_label {
+label {
   color: var(--color--white);
-  font-size: 20px;
+  font-size: 25px;
   display: block;
   width: 100%;
   padding: 0;
@@ -73,7 +73,7 @@ input {
   display: block;
   width: 100%;
   font-family: "Mukta", sans-serif;
-  border: 2px solid var(--color--background);
+  border: 1.5px solid var(--color--background);
   border-radius: 4px;
   box-sizing: border-box;
   background: rgb(241, 240, 240);
@@ -92,7 +92,7 @@ button {
   transition: 200ms;
   display: block;
   width: 30%;
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 5px 0;
   border: 1px solid var(--color--white);
   box-sizing: border-box;
@@ -100,6 +100,7 @@ button {
 
 button:hover {
   transform: scale(1.08);
+  opacity: 0.9;
 }
 
 a {
