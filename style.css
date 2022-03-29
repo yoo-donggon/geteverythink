@@ -5,15 +5,15 @@
   --color--font: #d16262;
   --color--back: #7acbcd;
   --color--background: #2d3030;
-  --color--grey: rgb(194, 194, 194);
-  --color--white: rgba(255, 255, 255, 0.897);
+  --color--grey: rgba(194, 194, 194, 0.884);
+  --color--white: rgba(255, 255, 255, 0.918);
 }
 
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background: var(--color--background);
+  background: var(--color--background, 0.4);
   display: flex;
   align-items: center;
   text-align: center;
@@ -49,14 +49,12 @@ body {
 }
 
 label {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
   color: var(--color--white);
   font-size: 25px;
   display: block;
-  width: 100%;
-  padding: 0;
-  border: none;
-  outline: none;
-  box-sizing: border-box;
   margin: 4px 0;
 }
 
@@ -71,15 +69,15 @@ input::placeholder {
 
 input {
   display: block;
+  box-sizing: border-box;
   width: 100%;
   font-family: "Mukta", sans-serif;
   border: 1.5px solid var(--color--grey);
   border-radius: 4px;
-  box-sizing: border-box;
-  background: rgb(241, 240, 240);
+  background: var(--color--white);
   padding-left: 20px;
   height: 50px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 button {
@@ -89,6 +87,7 @@ button {
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
+  font-family: "Mukta", sans-serif;
   transition: 200ms;
   display: block;
   width: 30%;
@@ -100,7 +99,6 @@ button {
 
 button:hover {
   transform: scale(1.08);
-  opacity: 0.9;
 }
 
 a {
