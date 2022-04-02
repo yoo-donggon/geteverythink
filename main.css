@@ -92,3 +92,28 @@ a {
   margin-bottom: 45px;
 
 }
+
+.items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(7,1fr);
+  padding: 40px 60px;
+  gap: 20px 50px;
+  background-color: rgba(212, 212, 212, 0.281);
+}
+
+.item{
+  border: 2px solid #7acbcd;
+  border-radius: 4px;
+
+}
+
+.item_img{
+  width: 100%;
+  height: 200px;
+
+}
+
+.item_description{
+  font-size: 14px;
+}
