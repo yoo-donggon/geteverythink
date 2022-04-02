@@ -95,9 +95,8 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(3,1fr);
-  padding: 40px 100px;
-  gap: 20px 50px;
-  ;
+  padding: 40px 200px;
+  gap: 30px 50px;
 }
 
 .item{
@@ -120,7 +119,7 @@ a {
   font-size: 16px;
   background: linear-gradient(to right top, #861657, #ffa69e);
   color: transparent;
-    -webkit-background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .item_by{
