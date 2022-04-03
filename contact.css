@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+:root {
+  /*color*/
+  --color--font: #d16262;
+  --color--back: #7acbcd;
+  --color--background: #2e2e2e;
+  --color--grey: rgba(194, 194, 194, 0.884);
+  --color--white: rgba(255, 255, 255, 0.918);
+}
+
+body {
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+  cursor: default;
+  background-color: var(--color--background);
+}
+
+.contact {
+    margin-top: 200px;
+    padding: 60px 0;
+    padding-top: 70px;
+    text-align: center;
+  }
+  
+  .contact__container {
+    text-align: center;
+    padding-top: 70px;
+    vertical-align: middle;
+  }
+  
+  .contact_title {
+    color: var(--color--back);
+    font-size: 70px;
+    letter-spacing: 10px;
+  }
+  
+  .contact_mail {
+    color: var(--color--font);
+    font-size: 30px;
+  }
+  
+  .contact_links {
+    font-size: 50px;
+    margin: 0 80px;
+  }
+  
+  .contact_rights {
+    color: whitesmoke;
+    font-size: 15px;
+    padding-top: 80px;
+  }
+  
