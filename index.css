@@ -33,7 +33,7 @@ body {
   border-radius: 4px;
   padding: 40px;
   box-sizing: border-box;
-  background: var(--color--back);
+  background: var(--color--background);
 }
 
 .brand_logo {
