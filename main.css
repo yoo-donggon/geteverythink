@@ -30,6 +30,9 @@ a {
   color: var(--color--font);
 }
 
+button{
+  text-decoration: none;
+}
 
 
 /*navbar*/
@@ -155,9 +158,8 @@ a {
 }
 
 .profile_container{
-  background-color: whitesmoke;
+  background-color: white;
   padding-top: 50px;
-  border: 2px groove rgb(198, 198, 198);
 }
 
 .profile_avatar {
