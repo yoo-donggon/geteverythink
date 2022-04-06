@@ -30,6 +30,11 @@ a {
   color: var(--color--font);
 }
 
+button{
+  text-decoration: none;
+  color: var(--color--font);
+}
+
 
 /*navbar*/
 #navbar {
@@ -134,39 +139,91 @@ a {
 
 
 
-/*contact*/
-.contact {
-  padding: 40px 0;
-  padding-top: 70px;
-  text-align: center;
-  background-color: #2e2e2e;
-  width: 80vw;
-  display: grid;
-  place-content: center;
-  margin: 15vw 10vw;
+/*Mypage*/
+
+.card {
+  width: 350px;
+  background-color: #efefef;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-top: 100px;
 }
 
-.contact_title {
-  color: var(--color--back);
-  font-size: 70px;
-  letter-spacing: 10px;
+.image img {
+  transition: all 0.5s
 }
 
-.contact_mail {
-  color: var(--color--font);
-  font-size: 30px;
+.card:hover .image img {
+  transform: scale(1.5)
 }
 
-.contact_links {
-  font-size: 50px;
-  margin: 0 80px;
+.btn {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%
 }
 
-.contact_rights {
-  color: black;
-  font-size: 15px;
-  padding-top: 80px;
+.name {
+  font-size: 22px;
+  font-weight: bold
 }
+
+.idd {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.idd1 {
+  font-size: 12px
+}
+
+.number {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.follow {
+  font-size: 12px;
+  font-weight: 500;
+  color: #444444
+}
+
+.btn1 {
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: #000;
+  color: #aeaeae;
+  font-size: 15px
+}
+
+.text span {
+  font-size: 13px;
+  color: #545454;
+  font-weight: 500
+}
+
+.icons i {
+  font-size: 19px
+}
+
+hr .new1 {
+  border: 1px solid
+}
+
+.join {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: bold
+}
+
+.date {
+  background-color: #ccc
+}
+
+
+
 
 
 .search-background{
