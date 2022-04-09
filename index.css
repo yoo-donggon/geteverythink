@@ -21,7 +21,6 @@ body {
   place-items: center;
   overflow: auto;
   font-family: "Mukta", sans-serif;
-  background: linear-gradient(to right top, #d91b24a1, #1250eb9d);
   color: transparent;
     -webkit-background-clip: text;
 }
@@ -33,7 +32,7 @@ body {
   border-radius: 4px;
   padding: 40px;
   box-sizing: border-box;
-  background: var(--color--background);
+  background: var(--color--back);
 }
 
 .brand_logo {
