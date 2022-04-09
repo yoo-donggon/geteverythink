@@ -15,6 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 ul {
@@ -87,7 +88,6 @@ a {
 
 /*explore*/
 .explore{
-  
   display: block;
   text-align: center;
 }
@@ -110,7 +110,7 @@ a {
 }
 
 .item{
-  border: 1.5px solid grey;
+  border: 1.5px solid transparent;
   border-radius: 4px;
   padding-bottom: 12px;
 }

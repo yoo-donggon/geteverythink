@@ -88,18 +88,18 @@ a {
 .upload {
     padding: 42vh 32px;
     font-size: 14px;
-    background: #eee;
+    background: rgb(255, 255, 255);
     text-align: center;
 }
 
 .file-input {
     display: inline-block;
     text-align: left;
-    background: #fff;
     padding: 16px;
     width: 450px;
     position: relative;
     border-radius: 3px;
+    border: #7acbcd 2px groove;
 }
 
 .file-input > [type='file'] {
@@ -123,16 +123,17 @@ a {
 }
 
 .file-input:hover > .button {
-    background: dodgerblue;
+    background: #7acbcd;
     color: white;
 }
 
 .file-input > .label {
-    color: #333;
+    color: #d16262;
     white-space: nowrap;
-    opacity: .3;
+    opacity: 1;
 }
 
 .file-input.-chosen > .label {
     opacity: 1;
 }
+
