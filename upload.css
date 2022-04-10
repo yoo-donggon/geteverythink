@@ -13,7 +13,7 @@ body {
     font-family: "Mukta", sans-serif;
     cursor: default;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow: auto;
 }
 
@@ -84,9 +84,21 @@ a {
 }
 
 
+.cloud{
+    font-size: 70px;
+    margin-top: 180px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right top, #d91b24a1, #1250eb9d);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    padding: 0;
+}
+
+
 
 .upload {
-    padding: 42vh 32px;
+    padding: 10vh 32px 20vh 32px;
     font-size: 14px;
     background: rgb(255, 255, 255);
     text-align: center;
