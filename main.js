@@ -11,3 +11,7 @@ $('.chat-input input').keyup(function(e) {
       $(this).attr('good', '');
   });
   
+
+  $(".person").on('click', function(){
+    $(this).toggleClass('focus').siblings().removeClass('focus');
+ })
