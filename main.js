@@ -1,6 +1,6 @@
 
 /*메시지 팝업*/
-function showPopup() { window.open("message.html", "a", "width=450, height=600, left=100, top=50"); }
+function showPopup() { window.open("message.html", "a", "width=750, height=700, left=100, top=50"); }
 
 
 /*메시지 창*/
