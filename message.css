@@ -15,7 +15,7 @@ html {
 
 body {
   display: grid;
-  background: linear-gradient(to bottom left, #79C7C5 40%, white 100%);
+  background: linear-gradient(to bottom left, #416e6c 40%, #656d6c 100%);
   font-family: --font;
 }
 
@@ -28,8 +28,8 @@ body {
 
 .messages {
   position: absolute;
-  background: whitesmoke;
-  opacity: 0.5;
+  background: rgb(0, 0, 0);
+  opacity: 0.7;
   width: 34%;
   height: 70%;
   top: 2.5%;
@@ -53,7 +53,7 @@ body {
     font-size: 0.7em;
     margin-left: 14px;
     letter-spacing: 1px;
-    color: grey;
+    color: whitesmoke;
 }
 
   .time {
@@ -75,15 +75,16 @@ body {
   padding: 12px 0 12px 12px;
   border-bottom: 1px solid #79C7C5;
   cursor: pointer;
+  border: transparent 1px solid;
 }
 .person:hover {
-    background: whitesmoke;
+    border: #F9FBFF 1px solid;
     transition: all .3s ease-in-out;
   }
 
 
 .focus {
-  background: whitesmoke;
+  border: #F9FBFF 1px solid;
   margin-left: 1px;
 }
 
@@ -113,7 +114,7 @@ body {
 .chatbox {
   position: absolute; 
   left: 40%;
-  height: 75%;
+  height: 80%;
   width: 60%;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(grey, 0.5);
@@ -122,7 +123,7 @@ body {
 .top-bar {
   width: 100%;
   height: 60px;
-  background: whitesmoke;
+  background: rgb(57, 57, 57);
   border-radius: 10px 10px 0 0;
 }
 
@@ -247,9 +248,9 @@ body {
 .bubble {
   position: relative;
   display: inline-block;
-  margin-bottom: 5px;
-  color: whitesmoke;
-  font-size: 0.7em;
+  margin-bottom: 7px;
+  color: rgb(41, 41, 41);
+  font-size: 0.8em;
   padding: 10px 10px 10px 12px;
   border-radius: 20px;
 }
@@ -278,8 +279,9 @@ body {
   width: 100%;
   height: 55px;
   bottom: 0;
-  background: white;
+  background: rgb(57, 57, 57);
   border-radius: 0 0 10px 10px;
+  
 }
 
 .left {
@@ -291,7 +293,7 @@ input {
   width: 74%;
   left: 5%;
   position: absolute;
-  border: 0;
+  border: 10px;
   top: 13px;
   background: white;
   color: #79C7C5;
@@ -299,7 +301,7 @@ input {
 }
 
 input::placeholder {
-  color: #8ec4c2;
+  color: #000000;
 }
 
 input:focus {
@@ -312,11 +314,13 @@ button {
   border: 0;
   font-size: 1em;
   color: #8cc1bf;
-  top:  19px;
+  top:  10px;
   opacity: 0.8;
   right: 17px;
   cursor: pointer;
   outline: 0;
+  bottom: 10px;
+  background-color: transparent;
 }
 button:hover {
     transform: scale(1.1);
