@@ -209,9 +209,7 @@ body {
   height: 100%;
   padding: 20px;
 }
-  .bubble {
-    background: lighten(grey, 23%);
-  }
+
 
 
 .typing {
@@ -229,20 +227,12 @@ body {
 .ellipsis {
   width: 5px;
   height: 5px;
+  font-size: 15px;
+  color: white;
   display: inline-block;
   background: lighten(grey, 25%);
   border-radius: 50%;
   animation: bounce 1.3s linear infinite;
-}
-
-.one {
-  animation-delay: 0.6s;
-}
-.two {
-  animation-delay: 0.5s;
-}
-.three {
-  animation-delay: 0.8s;
 }
 
 .bubble {
