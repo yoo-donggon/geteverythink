@@ -1,4 +1,4 @@
-<?php // login.php
+<?php
   $host = 'localhost';    
   $data = 'getdb'; 
   $user = 'root';         

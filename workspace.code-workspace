@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Users\\Home\\Desktop\\geteverythink"
+		},
+		{
+			"path": "..\\..\\..\\Users\\Home\\Desktop\\carshare"
+		},
+		{
+			"path": "..\\..\\..\\Users\\Home\\Desktop\\포트폴리오"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "www"
+	}
+}

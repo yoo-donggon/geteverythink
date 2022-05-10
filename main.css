@@ -98,7 +98,7 @@ a {
   margin-bottom: 45px;
   background: linear-gradient(to right top, #d91b24a1, #1250eb9d);
   color: transparent;
-    -webkit-background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .items{
@@ -127,7 +127,7 @@ a {
   transition: 250ms;
 }
 
-.item_description{
+.item_title{
   font-size: 16px;
   background: linear-gradient(to right top, #861657, #ffa69e);
   color: transparent;
